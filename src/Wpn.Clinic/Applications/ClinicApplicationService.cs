@@ -2,7 +2,6 @@
 using Wpm.Clinic.Controllers;
 using Wpm.Clinic.DataAccess;
 using Wpm.Clinic.ExternalServices;
-using Wpn.Clinic.DataAccess;
 
 namespace Wpm.Clinic.Application;
 
