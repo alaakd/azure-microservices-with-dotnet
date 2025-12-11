@@ -13,8 +13,8 @@ namespace Wpm.Management.Api.ExternalServices
 
 public record PetInfo(int Id, string Name, int Age, int BreedId)
 {
-    public static implicit operator PetInfo?(Wpm.Clinic.ExternalServices.PetInfo? v)
-    {
-        throw new NotImplementedException();
-    }
+    //public static implicit operator PetInfo?(Wpm.Clinic.ExternalServices.PetInfo? v)
+    //{
+    //    throw new NotImplementedException();
+    //}
 }
