@@ -3,6 +3,8 @@ using Polly;
 using Wpm.Clinic.Application;
 using Wpm.Clinic.DataAccess;
 using Wpm.Clinic.ExternalServices;
+using Microsoft.Extensions.Http.Resilience;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
