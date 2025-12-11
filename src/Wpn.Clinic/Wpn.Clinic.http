@@ -1,0 +1,6 @@
+@Wpn.Clinic_HostAddress = http://localhost:5282
+
+GET {{Wpn.Clinic_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

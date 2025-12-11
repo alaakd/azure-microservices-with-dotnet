@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpm.Management.Api", "Wpm.Management.Api\Wpm.Management.Api.csproj", "{77567915-E176-4D5C-AEB0-C8AA4932A56D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpm.Clinic", "Wpn.Clinic\Wpm.Clinic.csproj", "{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +29,23 @@ Global
 		{77567915-E176-4D5C-AEB0-C8AA4932A56D}.Release|x64.Build.0 = Release|Any CPU
 		{77567915-E176-4D5C-AEB0-C8AA4932A56D}.Release|x86.ActiveCfg = Release|Any CPU
 		{77567915-E176-4D5C-AEB0-C8AA4932A56D}.Release|x86.Build.0 = Release|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Debug|x64.Build.0 = Debug|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Debug|x86.Build.0 = Debug|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Release|x64.ActiveCfg = Release|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Release|x64.Build.0 = Release|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Release|x86.ActiveCfg = Release|Any CPU
+		{C2CF00DC-C90D-4D58-AAFE-37B4C0811227}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31896A57-E03B-438C-9AFA-EBBA4CE4B306}
 	EndGlobalSection
 EndGlobal
